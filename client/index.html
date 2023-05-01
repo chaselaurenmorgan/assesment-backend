@@ -2,9 +2,19 @@
 <html>
   <head>
     <title>Back End Assessment</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body class="container">
     <button id="complimentButton">Get a compliment</button>
+    <button id="fortuneButton">Discover your fortune</button>
+
+    <p>Save Your Favorite Quote</p>
+    <form id="quoteForm">
+      <label for="quote">Quote:</label>
+      <input type="text" id="quote" name="quote" placeholder="Enter your favorite quote here...">
+      <button id="saveQuoteButton" type="submit">Save</button>
+    </form>
+    
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="main.js"></script>

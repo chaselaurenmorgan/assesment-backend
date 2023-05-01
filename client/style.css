@@ -1,0 +1,12 @@
+form {
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
